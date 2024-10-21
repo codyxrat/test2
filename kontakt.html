@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bø Industribedrift</title>
+    <link rel="stylesheet" href="stiler.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Bø Industribedrift</h1>
+    </header>
+
+    <!-- Nav-linje -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="tjenester">Tjenester</a></li>
+            <li><a href="£kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hoveddtekst -->
+    <section class="main-content">
+        <h2>Send oss en hendvendelse her</h2><br>
+        <!-- Kontakt Skjema -->
+    <section class="contact-form">
+        <h2>Ta kontakt med oss</h2>
+        <form action="/send-skjema" method="POST">
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="name" placeholder="Ditt navn" required>
+
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" placeholder="Din e-post" required>
+
+            <label for="subject">Emne:</label>
+            <input type="text" id="subject" name="subject" placeholder="Emne" required>
+
+            <label for="message">Melding:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Skriv din melding her" required></textarea>
+
+            <button type="submit">Send Melding</button>
+        </form>
+    </section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Kontakt oss:</p>
+        <p>Adresse: Industriveien 12, 3800 Bø</p>
+        <p>E-post: kontakt@boindustribedrift.no</p>
+        <p>Telefon: 415 69 737</p>
+    </footer>
+
+</body>
+</html>
