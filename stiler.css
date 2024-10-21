@@ -1,0 +1,130 @@
+/* enree for reset av margin og pad */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* mobil passelig + andre format */
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+/* bakgrunnnfarge/bilde */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Nav-linje styling */
+nav {
+    background-color: #ddd;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Hoveddiv hvor allt innhold går inn */
+.main-content {
+    width: 70%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: float;
+    width: 100%;
+    bottom: 0;
+}
+
+img {
+    width: 100%; /* Bildet vil fylle sin container */
+    max-width: 600px; /* Begrensning på maksimal bredde */
+    height: auto; /* Bevarer bildeforholdet */
+  }
+  
+
+/* Styling for kontaktskjema */
+.contact-form {
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
